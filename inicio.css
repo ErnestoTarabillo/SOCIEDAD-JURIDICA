@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #f0f0f0;
+    background-color: #000;
+}
+
+.bg {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('fondo-biblioteca-lujo.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 1em;
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 1.5em;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.servicio {
+    width: 30%;
+    margin-bottom: 2em;
+    text-align: center;
+    padding: 1em;
+    background: rgba(20,20,20,0.8);
+    border: 1px solid #d4af37;
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+}
+
+.abogados {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.abogado {
+    text-align: center;
+    width: 30%;
+}
+
+.abogado img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #d4af37;
+    transition: transform 0.3s ease;
+}
+
+.abogado img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 2em;
+    border-top: 1px solid #d4af37;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em 2em;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #ffffff;
+}

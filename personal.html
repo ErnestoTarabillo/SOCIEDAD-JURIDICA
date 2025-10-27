@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Expertos - SOCIEDAD JURIDICA "FERTAR"</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<button class="chatbot-flotante" onclick="abrirChat()">💬</button>
+<div id="chatbotVentana">
+    <div class="chatbot-header">
+        <strong>Asistente FERTAR</strong>
+        <button class="chatbot-close" onclick="cerrarChat()">✕</button>
+    </div>
+    <div id="areaMensajes" class="chatbot-messages">
+        <p>¡Hola! ¿En qué puedo ayudarte?</p>
+    </div>
+    <div class="chatbot-input">
+        <input type="text" placeholder="Escribe tu pregunta...">
+        <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+</div>
+<link rel="stylesheet" href="chatbot.css">
+<script src="chatbot.js"></script>
+<body>
+    <div class="bg"></div>
+    <div class="content">
+        <header>
+            <h1>Nuestros Personal</h1>
+            <nav>
+                <a href="inicio.html">Inicio</a>
+                <a href="servicio.html">Servicios Jurídicos</a>
+                <a href="profesional.html">Experiencia Profesional</a>
+                <a href="consultas.html">Consulta Telefonicas</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="abogados">
+                <div class="abogado">
+                    <img src="/imagenes/ErnestoF.jpg" alt="Fotografía profesional del Dr. Jose Ernesto Fernandez Peñaranda, abogado principal." width="250" height="250">
+                    <h3>Dr. Jose Ernesto Fernandez Peñaranda</h3>
+                    <p>Derecho Penal, Derecho Procesal Penal y Constitucional </p>
+                </div>
+                <div class="abogado">
+                    <img src="/imagenes/carmen.jpg" alt="Fotografía profesional de la Dra. Carmen Tarabillo Vargas, abogada principal." width="250" height="250">
+                    <h3>Dra. Carmen Tarabillo Vargas</h3>
+                    <p>Derecho de la Familia y Derecho Laboral</p>
+                </div>
+                <div class="abogado">
+                    <img src="/imagenes/dianaf.jpg" alt="Fotografía profesional de la Dra. Diana Patricia Fernandez Tarabillo, abogada principal" width="250" height="250">
+                    <h3>Dra. Diana Patricia Fernandez Tarabillo</h3>
+                    <p>Derecho Civil y Administrativo</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>La excelencia jurídica personificada en cada uno de nuestros expertos.</p>
+            <a href="consultas.html" class="cta">SOLICITAR CONSULTA GRATUITAS</a>
+        </footer>
+    </div>
+</body>
+</html>

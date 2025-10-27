@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #f0f0f0;
+    background-color: #000;
+}
+.bg {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../oficina-legal.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+nav {
+    text-align: center;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 1em;
+}
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ffffff;
+}
+.contact-info {
+    background: rgba(20,20,20,0.8);
+    padding: 2em;
+    margin-bottom: 2em;
+    border: 1px solid #d4af37;
+}
+.contact-info p {
+    margin: 0.5em 0;
+}
+.lawyer-contact {
+    margin-bottom: 2em;
+}
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #d4af37;
+}
