@@ -1,20 +1,18 @@
-/* BOTÓN FLOTANTE DEL CHAT */
 .chatbot-flotante {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 60px;
     height: 60px;
-    background: blue;
+    background: rgb(119, 96, 15);
     color: white;
     border: none;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 25px;
     cursor: pointer;
     z-index: 10000;
 }
 
-/* VENTANA DEL CHAT */
 #chatbotVentana {
     position: fixed;
     bottom: 90px;
@@ -22,7 +20,7 @@
     width: 350px;
     height: 500px;
     background: white;
-    border: 2px solid #ccc;
+    border: 2px solid #6e5d08;
     border-radius: 10px;
     display: none;
     flex-direction: column;
@@ -30,38 +28,35 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-/* CABECERA AZUL DEL CHAT */
+
 .chatbot-header {
     padding: 15px;
-    background: blue;
+    background: rgb(2, 2, 6);
+    border-radius: 5px;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
-/* BOTÓN X DE CERRAR */
 .chatbot-close {
     background: none;
     border: none;
-    color: white;
+    color: rgba(164, 156, 101, 0.833);
     cursor: pointer;
 }
 
-/* ÁREA DE MENSAJES */
 .chatbot-messages {
     flex: 1;
     padding: 15px;
     overflow-y: auto;
 }
 
-/* ÁREA DE ENTRADA DE TEXTO */
 .chatbot-input {
     padding: 15px;
     border-top: 1px solid #ccc;
     display: flex;
 }
 
-/* CAMPO DE TEXTO */
 .chatbot-input input {
     flex: 1;
     padding: 8px;
