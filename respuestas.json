@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   {
     "hola": "¡Hola! Soy el asistente del Estudio Juridico Fertar. ¿En qué puedo ayudarte?",
     "horario": "Lunes a Viernes en oficina de 09:00 a 17:00 y por llamadas 24/7 ",
@@ -24,4 +25,32 @@
     "municipio clausuró": "Ley 1178: Recurso de reconsideración en 5 días hábiles ante la Alcaldía",
     "documentos necesito trámite": "Depende del trámite. General: cédula y documentos del caso específico",
     "atienden fines semana": "Lunes a Viernes 8:30-16:30. Urgencias: contacto telefónico disponible"
+=======
+  {
+    "hola": "¡Hola! Soy el asistente del Estudio Juridico Fertar. ¿En qué puedo ayudarte?",
+    "horario": "Lunes a Viernes en oficina de 09:00 a 17:00 y por llamadas 24/7 ",
+    "direccion": "Estamos ubicado en la calle Aroma numero 772 casi esquina Avenida uruguay edificio Aroma III, primer piso oficina 11, santa cruz bolivia",
+    "servicios": "Atendemos procesos penales, civiles, familiares, laborales y asuntos administrativos.",
+    "contacto": "Telefono piloto: 74929635",
+    "precios": "Para conocer los precios del servicio comunicarse con el numero piloto: 74929635.",
+    "default": "Lo siento, no entendí. ¿Puedes reformularla?",
+    "soy": "soy un chatbot automatico de ayuda para consultas por servicios",
+    "demando por despido injustificado": "Art. 55 LGT: Debe presentar demanda en el Ministerio de Trabajo en 90 días. La indemnización es de 1 mes de salario por cada año trabajado",
+    "indemnización": "Art. 55 LGT: Le corresponde 1 mes de salario por cada año de servicio. Incluye beneficios sociales adeudados",
+    "empleador no paga horas extras": "Art. 47 LGT: Debe reclamar ante el Ministerio de Trabajo. Las horas extras pagan 100% de recargo",
+    "inicio un divorcio": "Arts. 150-165 CF: Puede ser divorcio voluntario o contencioso en Juzgados de Familia",
+    "solicito pensión alimentos": "Arts. 182-195 CF: Demanda en Juzgado de Familia. El monto según necesidades del hijo y capacidad del padre",
+    "derechos unión libre": "Art. 66 CF: Después de 2 años de convivencia tiene derechos patrimoniales y sucesorios",
+    "gano tenencia hijos": "Arts. 102-115 CF: El juez decide según el interés superior del niño y su estabilidad",
+    "reclamo deuda": "Arts. 1555-1565 CC: Juicio ejecutivo con título ejecutivo. Prescripción: 5 años",
+    "contrato compraventa": "Arts. 810-835 CC: Para inmuebles requiere escritura pública y registro en Derechos Reales",
+    "vecino invade terreno": "Arts. 390-395 CC: Demanda por perturbación de posesión. Necesita título de propiedad",
+    "robaron cómo denuncio": "Arts. 300-302 CP: Denuncia inmediata en Fiscalía con detalles del hecho y testigos",
+    "acusan delito": "Arts. 118-125 CPP: No declare sin abogado. Tiene derecho a defensa técnica",
+    "gano caso injurias": "Arts. 286-287 CP: Querella por injurias. Necesita pruebas del daño moral",
+    "licencia funcionamiento": "Ley 1178: Solicitud en Municipalidad con formulario, planos y certificado de bomberos",
+    "municipio clausuró": "Ley 1178: Recurso de reconsideración en 5 días hábiles ante la Alcaldía",
+    "documentos necesito trámite": "Depende del trámite. General: cédula y documentos del caso específico",
+    "atienden fines semana": "Lunes a Viernes 8:30-16:30. Urgencias: contacto telefónico disponible"
+>>>>>>> 968eecbd62217d29a5edaf2783d34845031c2dc1
   }
