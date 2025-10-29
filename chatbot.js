@@ -95,7 +95,7 @@ function obtenerRespuesta(pregunta) {
     if (preguntaLower.includes("demando") || preguntaLower.includes("despido injustificado") || preguntaLower.includes("demanda despido")) return respuestas["demando por despido injustificado"];
     if (preguntaLower.includes("indemnización") || preguntaLower.includes("indemnizacion") || preguntaLower.includes("pago despido")) return respuestas.indemnización;
     if (preguntaLower.includes("horas extras") || preguntaLower.includes("horas extra") || preguntaLower.includes("empleador no paga")) return respuestas["empleador no paga horas extras"];
-    if (preguntaLower.includes("inicio divorcio") || preguntaLower.includes("cómo divorcio") || preguntaLower.includes("como divorcio")) return respuestas["inicio un divorcio"];
+    if (preguntaLower.includes("inicio un divorcio") || preguntaLower.includes("cómo me divorcio") || preguntaLower.includes("como divorcio")) return respuestas["inicio un divorcio"];
     if (preguntaLower.includes("pensión alimentos") || preguntaLower.includes("pension alimentos") || preguntaLower.includes("solicito pension")) return respuestas["solicito pensión alimentos"];
     if (preguntaLower.includes("derechos unión libre") || preguntaLower.includes("derechos union libre") || preguntaLower.includes("unión libre")) return respuestas["derechos unión libre"];
     if (preguntaLower.includes("tenencia hijos") || preguntaLower.includes("gano tenencia") || preguntaLower.includes("custodia hijos")) return respuestas["gano tenencia hijos"];
